@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { fetchPost, formatDate, readingTime } from '@/services/api.js'
+import { fetchPost, formatDate, readingTime } from '../services/api.js'
 
 const route  = useRoute()
 const router = useRouter()
